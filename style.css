@@ -7,16 +7,21 @@ body{
   text-align:center;
   color:brown;
 }
-.head-div{
+.first-div{
   display:flex;
-  
+  width:80%;
+  margin:0 auto;
 }
+.half-width p{
+  text-align:justify;
+}
+/*
 .half-width{
   width:50%;
   padding:5%;
-}
+}*/
 .half-width img{
-  width:80%;
+  width:400px;
 }
 .link-button{
   text-decoration:none;
@@ -30,4 +35,35 @@ body{
   background-color:blue;
   color:#F4263F;
   cursor:pointer;
+}
+.second-div{
+  
+  text-align:center;
+  margin-top:100px;
+}
+.title-1{
+  color:lightcoral;
+}
+.half-img img{
+  width:100%;
+}
+.dhaka{
+  width:250px;
+  border:1px solid gray;
+  box-shadow:10px 10px 20px gray;
+  border-radius:10px;
+}
+.all-division{
+  display:flex;
+  justify-content:space-around;
+  padding:50px;
+}
+.button{
+  cursor:pointer;
+  text-decoration:none;
+  background-image:linear-gradient(45deg,#C9D6EB,#FC7687);
+  padding:10px 40px;
+  border-radius:5px;
+  color:#fff;
+  font-weight:700;
 }
